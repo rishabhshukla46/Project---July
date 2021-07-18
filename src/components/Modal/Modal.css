@@ -1,0 +1,18 @@
+.modal {
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  animation: fadeIn 0.3s;
+  z-index: 999;
+}
+.text-field {
+  margin: 10px 0;
+}
